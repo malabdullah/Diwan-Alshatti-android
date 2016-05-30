@@ -1,0 +1,63 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.malabdullah.alshattidiwan.add_member"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/colorWhite">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_name"
+            android:hint="@string/enter_name_hint"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_date"
+            android:hint="@string/choose_date_hint" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_comments"
+            android:hint="@string/comments_hint"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:minHeight="150dp"
+            android:gravity="top" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add"
+                android:text="@string/add_btn_text"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorWhite"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cancel"
+                android:text="@string/cancel_btn_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

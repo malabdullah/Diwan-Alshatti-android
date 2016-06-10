@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "438181901072",
+    "firebase_url": "https://diwan-alshatti.firebaseio.com",
+    "project_id": "diwan-alshatti",
+    "storage_bucket": "diwan-alshatti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438181901072:android:32f38284a9bebc8c",
+        "android_client_info": {
+          "package_name": "com.malabdullah.alshattidiwan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438181901072-3e8vlq8cq8u47u9n2to98rmq8ev7uio0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSYCGkqW0l3PPKlRU_Das_W8H3DdjXY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

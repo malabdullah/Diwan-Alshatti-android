@@ -22,4 +22,6 @@
     <string name="comments_hint">COMMENTS</string>
     <string name="add_btn_text">ADD</string>
     <string name="cancel_btn_text">CANCEL</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8587947849564336/4942193200</string>
 </resources>
